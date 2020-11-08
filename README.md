@@ -1,5 +1,6 @@
 # cardio_final_project
 
+
 ## Presentation
 Selected Topic: 
 Cardiovascular Disease
@@ -26,5 +27,4 @@ The initial dataset: cardio_train.csv was collected and downloaded from Kaggle.c
 In the original dataset, a total number of 70000 records were presented with 12 columns of information. These information include their: id, gender, weight, height, ap_high, ap_low, cholesterol, gluc, smoke, aloholic, active and cardio. Among the information, 5 of them are numerical variable and 7 of them are categorical variables: gender, cholesterol, gluc, smoke, alco, active and cardio. And some of the categorical variable are binary variable, which means the outcome will be simply a Yes or No and they are represented as 1 or 0 in our dataset. These categorial variable impose a limited number of possible value of outcomes. So from statical perspective, special consideration will be take into account when we deal with categorial variable in machine learning as certain statistics measurement will not make sense for those categorial variable. (For example the mean of gender will not provide any meaningful interpretation in machine learning). Thus, proper treatment on encoding these variable will be one of the focus and challenge for this assignment. 
 
 A huge size of dataset can ensure we have enough confidence on the information that we carry and the statics significance that we have. However it can be very time consuming when deal with a large amount of data.  In order to efficiently process the data without losing the statistics significance, we selected a reasonable size of sample data from the original dataset. We shrink the number of record to 700 as the selected data shows a uniform distribution with respect to our dataset. However we will still continue to monitor the representative of our sample data and will remain the option to change the sample data in the case that if any deficiency is discovered.
-
 
