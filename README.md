@@ -2,6 +2,7 @@
 
 
 ## Presentation
+
 ### Selected Topic: 
 Cardiovascular Disease
 
@@ -23,6 +24,7 @@ Besides github, team member are using video conferencing tool like Zoom to set u
 
 
 ## Database
+
 The initial dataset: cardio_train.csv was extracted from Kaggle.com, an open community of Machine Learning Practitioners.  
 
 In the original dataset, a total number of 70000 records were presented with 12 columns of information. These information include their: id, gender, weight, height, ap_high, ap_low, cholesterol, gluc, smoke, aloholic, active and cardio. Among the information, 5 of them are numerical variable and 7 of them are categorical variables: gender, cholesterol, gluc, smoke, alco, active and cardio. And some of the categorical variable are binary variable, which means the outcome will be simply a Yes or No and they are represented as 1 or 0 in our dataset. These categorial variable impose a limited number of possible value of outcomes. So from the statistics perspective, special consideration will be take into account when we deal with categorial variable in machine learning as certain statistics measurement will not make sense for those categorial variable. (For example the mean of gender will not provide any meaningful interpretation in machine learning). Thus, proper treatment on encoding these variable will be one of the focus and challenge for this assignment. 
@@ -43,6 +45,8 @@ The following are the machine learning models that we intend to try out during t
 3. Suppport Vector Machine (SVM). To be tested out in future weeks. 
 
 4. Neural Networks. To be tested out in future weeks. 
+
+Because we have only tested one of the four models above so far, we cannot yet decide their strengths and weaknesses as well as the final model to use for our dataset. This decision will be made in the weeks to come as more models and tried out. 
 
 
 
