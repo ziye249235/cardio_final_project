@@ -38,7 +38,7 @@ In order to create a machine learning model capable of predicting cardio vascula
 
 The following are the machine learning models that we intend to try out during the duration of the project: 
 
-1. Logistic regression. This is the initial model that we have tried out in this first segment of the project, in the file Segment1.ipynb. it has resulted in an accuracy of 70.86%, which we are hoping can be improved in the weeks coming by trying other models. 
+1. Logistic regression. This is the initial model that we have tried out in this first segment of the project, in the file Segment1.ipynb. it has resulted in an accuracy of 71.43%, which we are hoping can be improved in the weeks coming by trying other models. 
 
 2. Decision trees and random forests. To be tested out in future weeks. 
 
