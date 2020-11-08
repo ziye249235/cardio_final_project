@@ -11,10 +11,10 @@ We found this dataset to be very interesting and relevant to the world. As Cardi
 ### Source of Data:
 This data is extracted from Kaggle.com, which is an online community of Data Scientists and Maching Learning practitioners.
 
-### QUESTIONS WE HOPE TO BE ANSWERED: 
+### Questions we hoped to be answered:
 We are hoping that after working with this database, we will be able to detect the presence or absence of cardiovascular disease early depending on variables such as patient's age, gender, physical activity and more.
 
-## GitHub:
+## GitHub
 ### Description of the communication protocols: 
 In order to transmit and exchange information smoothly and error-free, each team member created their own github branch in the final project github page to upload their work seperately and then merge their work with main branch as a team work. This communication protocols gives team members the access to detect transmission errors and prevent data loss. 
 
@@ -29,4 +29,6 @@ In the original dataset, a total number of 70000 records were presented with 12 
 
 A huge size of dataset can ensure we have enough confidence on the information that we carry and the statics significance that we have. However it can be very time consuming when deal with a large amount of data.  In order to efficiently process the data without losing the statistics significance, we selected a reasonable size of sample data from the original dataset. We shrink the number of record to 700 as the selected data shows a uniform distribution with respect to our dataset. However we will still continue to monitor our sample data and will keep the option to adjust the sample data if any deficiency is discovered.
 
-=======
+## Machine Learning Model
+
+In order to create a machine learning model capable of predicting cardio vascular disease, we will be trying out different supervised machine learning models in order to find the one that has the most accuracy and precision with our dataset. 
