@@ -15,6 +15,7 @@ This data is extracted from Kaggle.com, which is an online community of Data Sci
 We are hoping that after working with this database, we will be able to detect the presence or absence of cardiovascular disease early depending on variables such as patient's age, gender, physical activity and more.
 
 ## GitHub
+
 ### Description of the communication protocols: 
 In order to transmit and exchange information smoothly and error-free, each team member created their own github branch in the final project github page to upload their work seperately and then merge their work with main branch as a team work. This communication protocols gives team members the access to detect transmission errors and prevent data loss. 
 
@@ -31,4 +32,16 @@ A huge size of dataset can ensure we have enough confidence on the information t
 
 ## Machine Learning Model
 
-In order to create a machine learning model capable of predicting cardio vascular disease, we will be trying out different supervised machine learning models in order to find the one that has the most accuracy and precision with our dataset. 
+In order to create a machine learning model capable of predicting cardio vascular disease, we will be trying out different supervised machine learning models in order to find the one that has the most accuracy and precision with our dataset. We have chosen the models that classifies data (ie. cardiovascular disease vs. no cardiovascular disease)
+
+The following are the machine learning models that we intend to try out during the duration of the project: 
+
+1. Logistic regression. This is the initial model that we have tried out in this first segment of the project. it has resulted in an accuracy of 70.86%, which we are hoping can be improved in the weeks coming by trying other models. 
+
+2. Decision trees and random forests. To be tested out in future weeks. 
+
+3. Suppport Vector Machine (SVM). To be tested out in future weeks. 
+
+4. Neural Networks. To be tested out in future weeks. 
+
+
