@@ -1,4 +1,4 @@
-age in days,age rounded to years,age group
+age_in_days,age_to_years,age_group
 10000,27,30 or less
 10001,27,30 or less
 10002,27,30 or less
