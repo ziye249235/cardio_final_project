@@ -92,7 +92,7 @@ Neural network model can be used as a classification algorithm used to predict w
 5. Deep Learning Neural network: 73.17%
 
 ### What do the numbers actually mean?
-An accuracy score of 73.17% for the deep learning network means the model was able to correctly predict the disease status of 72.17% of the patients.  
+An accuracy score of 73.17% for the deep learning network means the model was able to correctly predict the disease status of 72.17% of the patients. While anything less than a 100% would be not ideal, as human life is at stake, a score above 70% is generally considered acceptable. We believe adding more variables about a person's health such as prior diseases, family history or eating habits of the individuals could give us a higher accuracy score. 
 
 The Deep learning Neural network model, as expected, gave the highest accuracy score for our dataset, followed by SVM model. While the difference in the score of the two models isn't very large, it took a siginificantly longer time to train the data in the SVM model compared to the neural network. Therefore, considering all the benefits of neural network, the main one being the ability to cancel the noise out of the dataset and handle complex relationship between variables, we believe this model is the winner for us in terms of predicting cardiovascular disease among the patients. 
 
