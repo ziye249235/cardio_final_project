@@ -40,11 +40,13 @@ The following are the machine learning models that we intend to try out during t
 
 1. Logistic regression. This is the initial model that we have tried out in this first segment of the project, in the file Segment1.ipynb. it has resulted in an accuracy of 71.43%, which we are hoping can be improved in the weeks coming by trying other models. 
 
-2. Decision trees and random forests.  
+2. Decision trees
 
-3. Suppport Vector Machine (SVM). 
+3. Random forests.  
 
-4. Neural Networks. 
+4. Suppport Vector Machine (SVM). 
+
+5. Neural Networks. 
 
 Because we have only tested one of the four models above so far, we cannot yet decide their strengths and weaknesses as well as the final model to use for our dataset. This decision will be made in the weeks to come as more models and tried out. 
 
@@ -64,20 +66,19 @@ We defined Y as our target variable or target vector i.e. what we wish to predic
 In order to make sure that some data was left on the side and used to evalute the model, we divide the dataset into training sets and testing sets. The training set is used to run the model or learn from it. The testing set is then used to evalue the model's performance once it has been run. This is basicually to ensure that when evaluating the performance of our model, it uses unseen data that was previously not used in the training set. We divided both X and Y into training and testing sets in order to end up with 4 sets: X training set, X testing set, Y training set, Y testing set. Next, we used a random state integer to produce the same results accross different calls and gurantee the reproducibility of the dataset. 
 
 ### Explanation of model choice, including limitations and benefits
-We used five different models. Their limitations and benefits are mentioned below.
+We used five different models, based on their benefits and their ability to accurately predict the disease in question. We ran all five because we wanted to compare the results with each other in order to find the optimal model that will most effectively predict the presence or absense of cardiovascular disease among patients.  The limitations and benefits of the five models are mentioned below.
 
 1. Logistic Regression (segment2.ipynb) 
 This model is used to find the probability of a case occuring or not. In our case, existence or absense of cardiovascular disease. It is a classification model. This model is very simple and fast to implement. Training the dataset is also done very effectively. However, the model assumes a linear relationship between dependent and independent variables which in our case might not be exhaustively true. It also only works on simple models and so as if the relationship between variables becomes a bit complex, this model will not give accurate results. 
 
 2. Decision Trees (Segment2 - Decision tress.ipynb)
-Decision tree models can be used to solve both regression and classification problems. Decision Tree transforms the data into a tree-like representation, where each
-internal node represents an attribute and each leaf/terminal node represents a class label and do not split further. This alogrithm is very effective as the process seems intuitive and natural. There is less effort in the preprocessing stage and there is not scaling required. However, they can easily become very complicated to maneouver through depending on the number and depth of the nodes. Therefore, the deeper the tree, the more risk of overfitting the data. Also, the training of the set can take a long time and thus can be expensive. 
+Decision tree models can be used to solve both regression and classification problems. Decision Tree transforms the data into a tree-like representation, where each internal node represents an attribute and each leaf/terminal node represents a class label and do not split further. This alogrithm is very effective as the process seems intuitive and natural. There is less effort in the preprocessing stage and there is not scaling required. However, they can easily become very complicated to maneouver through depending on the number and depth of the nodes. Therefore, the deeper the tree, the more risk of overfitting the data. Also, the training of the set can take a long time and thus can be expensive. 
 
 3. Random Forest classifier
 Random forest classifier takes in the predictions of multiple alogrithms, decision tree models, and accumulates them to deliver a final prediction. The individual decision tree models are simpler as they only have a random subset of variables. Each individual tree is not effective but combining several average trees gives us a more accurate and robust prediction. The random forest classifier can handle alot of data with several variables and can be used to rank the variables in matter of importance. They are also robust and there is less risk of overfitting. However, if the number of decision tress become too high, it will become very slow to train the model.
 
 4. SVM (Support Vector Machines) 
-SVM model is a two-group classification model like the logistic regression. The main purpose of the support vector machine algorithm is to find a boundary in an dimensional space depending on the number of features, that distinctly classifies the data points. This model works well when there is a clear margin of separation between the classes in question. However, those margins can sometimes be less obvious, creating opportunity for outliers. It is also not fit for large datasets, in which case the model might not predict the results accurately. The SVM algorithm is very efficient and fast.
+SVM model is a two-group classification model like the logistic regression. The main purpose of the support vector machine algorithm is to find a boundary in an dimensional space depending on the number of features, that distinctly classifies the data points. This model works well when there is a clear margin of separation between the classes in question. However, those margins can sometimes be less obvious, creating opportunity for outliers. It is also not fit for large datasets, in which case the model might not predict the results accurately. The SVM algorithm nonetheless is very efficient and fast. SVMs are also at low risk of overfitting as they aim to maximize the distance between the classes.
 
 5. Deep Learning Neural Network 
 Neural network model can be used as a classification algorithm used to predict whether each record belongs in one category or another (each patient record has cardiovascular disease or not). Neural networks are the most advanced form of machine learning in our program where a neural network contains layers of neurons performing individual analysis. The analysis is compared against each other until they reach the last layer which returns a categorical result in our case (patient has cardiovascular disease or not). These models can analyze complex non linear relationships between variables and can also work with complicated messy data as well. However, these models are often at risk of overfitting.
@@ -88,4 +89,11 @@ Neural network model can be used as a classification algorithm used to predict w
 2. Decision Trees: 63.82%
 3. Random Forest Classifier: 71.13%
 4. SVM: 72.22%
-5. Deep Learning Neural networks: 73.17%
+5. Deep Learning Neural network: 73.17%
+
+### What do the numbers actually mean?
+An accuracy score of 73.17% for the deep learning network means the model was able to correctly predict the disease status of 72.17% of the patients.  
+
+The Deep learning Neural network model, as expected, gave the highest accuracy score for our dataset, followed by SVM model. While the difference in the score of the two models isn't very large, it took a siginificantly longer time to train the data in the SVM model compared to the neural network. Therefore, considering all the benefits of neural network, the main one being the ability to cancel the noise out of the dataset and handle complex relationship between variables, we believe this model is the winner for us in terms of predicting cardiovascular disease among the patients. 
+
+
