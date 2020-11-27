@@ -79,5 +79,13 @@ Random forest classifier takes in the predictions of multiple alogrithms, decisi
 4. SVM (Support Vector Machines) 
 SVM model is a two-group classification model like the logistic regression. The main purpose of the support vector machine algorithm is to find a boundary in an dimensional space depending on the number of features, that distinctly classifies the data points. This model works well when there is a clear margin of separation between the classes in question. However, those margins can sometimes be less obvious, creating opportunity for outliers. It is also not fit for large datasets, in which case the model might not predict the results accurately. The SVM algorithm is very efficient and fast.
 
+5. Deep Learning Neural Network 
+Neural network model can be used as a classification algorithm used to predict whether each record belongs in one category or another (each patient record has cardiovascular disease or not). Neural networks are the most advanced form of machine learning in our program where a neural network contains layers of neurons performing individual analysis. The analysis is compared against each other until they reach the last layer which returns a categorical result in our case (patient has cardiovascular disease or not). These models can analyze complex non linear relationships between variables and can also work with complicated messy data as well. However, these models are often at risk of overfitting.
 
+### We ran all 5 models in order to better compare the accuracy scores between the models. The accuracy score differs between the five models which is expected as each one has its own limitations and training capabilities. The accuracy score of the 5 models are outlined below.
 
+1. Logistic Regression: 69.25%
+2. Decision Trees: 63.82%
+3. Random Forest Classifier: 71.13%
+4. SVM: 72.22%
+5. Deep Learning Neural networks: 73.17%
