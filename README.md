@@ -15,6 +15,10 @@ This data is extracted from Kaggle.com, which is an online community of Data Sci
 ### Questions we hoped to be answered:
 We are hoping that after working with this database, we will be able to detect the presence or absence of cardiovascular disease early depending on variables such as patient's age, gender, physical activity and more.
 
+### GitHub
+
+## Google Slides
+https://docs.google.com/presentation/d/1iHwvu2vJT-PtQ6kPTJgLNRYzykJy-1L-Y0aAk3UAxJg/edit?usp=sharing
 
 ## Database
 
