@@ -17,11 +17,9 @@ We are hoping that after working with this database, we will be able to detect t
 
 ## GitHub
 
-### Description of the communication protocols: 
-In order to transmit and exchange information smoothly and error-free, each team member created their own github branch in the final project github page to upload their work seperately and then merge their work with main branch as a team work. This communication protocols gives team members the access to detect transmission errors and prevent data loss. 
+### Google Slides
 
-Besides github, team member are using video conferencing tool like Zoom to set up meeting during weekend and using communication tool like Slack to share thoughts and insights. The team have hosted two meeting during this week. In the first meeting, team member have decided the big picture for this project, including the choice of topic, source of data and choice of model. In the second meeting, team came to a common agreement on each individual's role on this project and each member's responsibility on specific part of this assignment.
-
+https://docs.google.com/presentation/d/1iHwvu2vJT-PtQ6kPTJgLNRYzykJy-1L-Y0aAk3UAxJg/edit?usp=sharing
 
 ## Database
 
