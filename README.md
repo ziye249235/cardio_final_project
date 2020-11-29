@@ -15,6 +15,7 @@ This data is extracted from Kaggle.com, which is an online community of Data Sci
 ### Questions we hoped to be answered:
 We are hoping that after working with this database, we will be able to detect the presence or absence of cardiovascular disease early depending on variables such as patient's age, gender, physical activity and more.
 
+
 ## Database
 
 The initial dataset: cardio_train.csv was extracted from Kaggle.com, an open community of Machine Learning Practitioners.  
