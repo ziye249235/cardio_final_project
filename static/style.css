@@ -1,6 +1,7 @@
 body {
-  height: 100vh;
-  background: url(https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/rich_media_quiz/topic/rmq_heart_anatomy/405x225_getty_rf_illustration_of_heart.jpg?resize=692px:*) no-repeat;
+  background: url("real_heart.png") no-repeat;
+  background-size: 250px;
+  background-attachment: fixed, scroll;
   background-position: bottom right;
   background-color: rgb(252, 224, 232);
   color: rgb(58, 1, 1);
