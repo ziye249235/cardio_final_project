@@ -1,12 +1,20 @@
 body {
-
-    color: #4e0202
-;
-  }
+  height: 100vh;
+  background: url(https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/rich_media_quiz/topic/rmq_heart_anatomy/405x225_getty_rf_illustration_of_heart.jpg?resize=692px:*) no-repeat;
+  background-position: bottom right;
+  background-color: rgb(254, 236, 236);
+  color: rgb(58, 1, 1);
+}
 
 .jumbotron {
-    background-image: url("heart.png");
-    opacity: 0.3;
-    background-size: 100% 100%;
-    text-align: center;
-  }
+  background-color: transparent;
+  text-align: center;
+}
+
+.jumbotron div.banner {
+  height: 200px;
+  background-image: url("heart.png");
+  background-size: contain;
+  text-align: center;
+}
+
