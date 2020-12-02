@@ -1,4 +1,6 @@
 body {
+  font-size: 25px;
+  text-align: justify;
   background: url("real_heart.png") no-repeat;
   background-size: 250px;
   background-attachment: fixed, scroll;
@@ -8,6 +10,7 @@ body {
 }
 
 .jumbotron {
+  font-size: larger;
   background-color: transparent;
   text-align: center;
 }
