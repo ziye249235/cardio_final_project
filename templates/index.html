@@ -1,59 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome - Cardio project</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="static/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome - Cardio project</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/style.css">
 
-</head>
+  </head>
 
-<body>
+  <body style = "background: url(https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/rich_media_quiz/topic/rmq_heart_anatomy/405x225_getty_rf_illustration_of_heart.jpg?resize=692px:*) no-repeat; background-size: cover; background-position: center;">
   <div>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="/">Home</a>
+      <a class="navbar-brand" href="/">Home</a> 
       <a class="navbar-brand" href="sampledata">Sample data</a>
       <a class="navbar-brand" href="info">Information</a>
       <a class="navbar-brand" href="model">machine learning model</a>
-    </nav>
-    <div class="container">
+    </nav>  
       <div class="jumbotron">
-        <marquee><div class="banner"></div></marquee>
-        <h1 class="display-3">Welcome - Cardio Project</h1>
-        <p>Using machine learning models to predict cardiovascular disease</p>
+          <h1 class="display-3">Cardiovascular Disease</h1>
+          <p>Predicting cardiovascular disease using Machine Learning Models</p>
       </div>
-      <div class="row">
-        <div class="col-12 col-md-4">
-          Introducing our team members:
-          <li>Maryam Atif</li>
-          <li>Deepanshu Dhindsa</li>
-          <li>Haikun Qiu</li>
-          <li>Ziye Zhang</li>
-        </div>
-        <div class="col-12 col-md-8">
-          <p>
-            We are four students in the University of Toronto Data Analytics bootcamp program.
-            For our final project, we have decided to build a machine learning model that predicts whether a person has
-            cardiovascular disease based on 11 different caracteristics.
-            blablabla...
-          </p>
-        </div>
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-md-4">
+                Team members:
+                <li>Maryam Atif</li>
+                <li>Deepanshu Dhindsa</li>
+                <li>Haikun Qiu</li>
+                <li>Ziye Zhang</li>
+              </div>
+              <div class="col-md-8">
+                  <p><font color="black">
+                    <em>We are four students in the University of Toronto Data Analytics bootcamp program. 
+                    For our final project, we have decided to build a machine learning model that predicts whether a person has cardiovascular disease based on 11 different caracteristics such as Age, Gender, Weight, Activity Level, etc.
+                 </em>
+                </font>
+              </p>
+
+             
+              <p>Cardiovascular disease is the leading cause of death worldwide and a major public health concern. Therefore, its risk assessment is crucial to many existing treatment guidelines. Risk estimates are also being used to predict the magnitude of future cardiovascular disease mortality and morbidity at the population level and in specific subgroups to inform policymakers and health authorities about these risks. Additionally, risk prediction inspires individuals to change their lifestyle and behaviour and to adhere to medications.</p>
+                  
+          <p><h1>Database:</h1></p>
+          <p>The initial dataset: cardio_train.csv was extracted from Kaggle.com, an open community of Machine Learning Practitioners.</p>
+
+            <p>In the original dataset, a total number of 70000 records were presented with 12 columns of information. These information include their: id, gender, weight, height, ap_high, ap_low, cholesterol, gluc, smoke, aloholic, active and cardio. Among the information, 5 of them are numerical variable and 7 of them are categorical variables: gender, cholesterol, gluc, smoke, alco, active and cardio. And some of the categorical variable are binary variable, which means the outcome will be simply a Yes or No and they are represented as 1 or 0 in our dataset. These categorial variable impose a limited number of possible value of outcomes.</p>
+            <p>A huge size of dataset can ensure we have enough confidence on the information that we carry and the statics significance that we have. However it can be very time consuming when deal with a large amount of data. In order to efficiently process the data without losing the statistics significance, we selected a reasonable size of sample data from the original dataset. We shrink the number of record to 700 as the selected data shows a uniform distribution with respect to our dataset. However we will still continue to monitor our sample data and will keep the option to adjust the sample data if any deficiency is discovered.</p>
+      
+              </div>
+          </div>
       </div>
-    </div>
   </div>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
-
 </html>
