@@ -17,7 +17,7 @@ We are hoping that after working with this database, we will be able to detect t
 
 ### GitHub
 
-## Google Slides
+## Google Slides (Latest Update: Dec 6th,2020)
 https://docs.google.com/presentation/d/1iHwvu2vJT-PtQ6kPTJgLNRYzykJy-1L-Y0aAk3UAxJg/edit?usp=sharing
 
 ## Database
